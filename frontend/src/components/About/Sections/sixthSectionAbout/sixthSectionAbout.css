@@ -1,0 +1,518 @@
+.about-sixth-section {
+  grid-row-start: 6;
+  grid-row-end: 6;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-device-width: 1440px) {
+  .about-sixth-container {
+    grid-auto-rows: repeat (2, 1fr);
+    display: grid;
+  }
+
+  .about-sixth-upper-container {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+  }
+
+  .about-sixth-upper-container h4 {
+    font-size: 1.2rem;
+    color: #ef5f34;
+    font-family: Roboto Slab, serif;
+  }
+
+  .about-sixth-upper-container h2 {
+    font-size: 2.66667rem;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Roboto Slab, serif;
+    margin: 15px 0 20px;
+  }
+
+  .about-sixth-upper-container p {
+    color: #4f555a;
+    line-height: 1.8em;
+  }
+
+  .about-sixth-section-donate {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+  }
+
+  .about-sixth-section-donate p {
+    margin-left: 10px;
+  }
+
+  .about-sixth-section-donate button {
+    margin-left: 90px;
+    text-align: center;
+    height: 40px;
+    line-height: 37px;
+    color: #333;
+    font-weight: 500;
+    width: 130px;
+    border-radius: 40px;
+    border: 1px solid #5dc4b8;
+    color: #212158;
+    transition: all 0.2s;
+  }
+
+  .about-sixth-section-donate button:hover {
+    text-decoration: none;
+    background-color: #5dc4b8;
+    color: white;
+  }
+
+  .about-sixth-lower-container {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .about-sixth-lower-column-container {
+    display: grid;
+    grid-auto-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-sixth-lower-column-container div {
+    box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .about-sixth-lower-column-container h2 {
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .about-sixth-lower-column-container hr {
+    width: 85%;
+    opacity: 0.3;
+  }
+
+  .about-sixth-lower-column-container a {
+    color: #212158;
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .about-sixth-lower-column-container a:hover {
+    color: #ef5f34;
+  }
+
+  .about-sixth-education-div {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .about-sixth-food-div {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .about-sixth-medicine-div {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
+  .about-sixth-container {
+    grid-auto-rows: repeat (2, 1fr);
+    display: grid;
+  }
+
+  .about-sixth-upper-container {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+  }
+
+  .about-sixth-upper-container h4 {
+    font-size: 17px;
+    color: #ef5f34;
+    font-family: Roboto Slab, serif;
+  }
+
+  .about-sixth-upper-container h2 {
+    font-size: 32px;
+    color: #212158;
+    text-transform: capitalize;
+    font-family: Roboto Slab, serif;
+  }
+
+  .about-sixth-upper-container p {
+    color: #4f555a;
+    line-height: 1.8em;
+    margin-right: 390px;
+    margin-left: 390px;
+  }
+
+  .about-sixth-section-donate {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+  }
+
+  .about-sixth-section-donate button {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 400;
+    width: 100px;
+    border-radius: 40px;
+    border: 1px solid #5dc4b8;
+    color: #212158;
+    transition: all 0.2s;
+    font-size: 10px;
+    margin-left: 38px;
+  }
+
+  .about-sixth-section-donate button:hover {
+    text-decoration: none;
+    background-color: #5dc4b8;
+    color: white;
+  }
+
+  .about-sixth-section-donate a {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .about-sixth-section-donate img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-sixth-lower-container {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-bottom: 80px;
+  }
+
+  .about-sixth-lower-column-container {
+    display: grid;
+    grid-auto-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-sixth-lower-column-container div {
+    box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .about-sixth-lower-column-container h2 {
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .about-sixth-lower-column-container hr {
+    width: 85%;
+    opacity: 0.3;
+  }
+
+  .about-sixth-lower-column-container a {
+    color: #212158;
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .about-sixth-lower-column-container a:hover {
+    color: #ef5f34;
+  }
+
+  .about-sixth-education-div {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .about-sixth-food-div {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .about-sixth-medicine-div {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .img-template {
+    width: 250px;
+    height: 200px;
+  }
+
+  .img-template-progress {
+    width: 250px;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .about-sixth-container {
+    grid-auto-rows: repeat (2, 1fr);
+    display: grid;
+  }
+
+  .about-sixth-upper-container {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+  }
+
+  .about-sixth-upper-container h4 {
+    font-size: 19px;
+    color: #ef5f34;
+    font-family: Roboto Slab, serif;
+  }
+
+  .about-sixth-upper-container h2 {
+    font-size: 25px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Roboto Slab, serif;
+    margin: 15px 0 20px;
+  }
+
+  .about-sixth-upper-container p {
+    color: #4f555a;
+    line-height: 1.8em;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .about-sixth-section-donate {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .about-sixth-section-donate p {
+    margin-left: 10px;
+  }
+
+  .about-sixth-section-donate button {
+    margin-left: 90px;
+    text-align: center;
+    height: 38px;
+    line-height: 37px;
+    color: #333;
+    font-weight: 500;
+    width: 105px;
+    border-radius: 40px;
+    border: 1px solid #5dc4b8;
+    color: #212158;
+    transition: all 0.2s;
+  }
+
+  .about-sixth-section-donate button:hover {
+    text-decoration: none;
+    background-color: #5dc4b8;
+    color: white;
+  }
+
+  .about-sixth-lower-container {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .about-sixth-lower-column-container {
+    display: grid;
+    grid-auto-rows: repeat(2, 1fr);
+    grid-auto-columns: 1fr;
+    grid-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .about-sixth-lower-column-container div {
+    box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .about-sixth-lower-column-container h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-right: 80px;
+  }
+
+  .about-sixth-lower-column-container hr {
+    width: 85%;
+    opacity: 0.3;
+  }
+
+  .about-sixth-lower-column-container a {
+    color: #212158;
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .about-sixth-lower-column-container a:hover {
+    color: #ef5f34;
+  }
+
+  .about-sixth-education-div {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .about-sixth-food-div {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .about-sixth-medicine-div {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  .img-template {
+    width: 100%;
+  }
+
+  .img-template-progress {
+    width: 100%;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .about-sixth-container {
+    grid-auto-rows: repeat (2, 1fr);
+    display: grid;
+  }
+
+  .about-sixth-upper-container {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+  }
+
+  .about-sixth-upper-container h4 {
+    font-size: 19px;
+    color: #ef5f34;
+    font-family: Roboto Slab, serif;
+  }
+
+  .about-sixth-upper-container h2 {
+    font-size: 25px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Roboto Slab, serif;
+    margin: 15px 0 20px;
+  }
+
+  .about-sixth-upper-container p {
+    color: #4f555a;
+    line-height: 1.8em;
+    text-align: center;
+  }
+
+  .about-sixth-section-donate {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .about-sixth-section-donate p {
+    margin-left: 10px;
+  }
+
+  .about-sixth-section-donate button {
+    margin-left: 60px;
+    text-align: center;
+    height: 38px;
+    line-height: 36px;
+    color: #333;
+    font-weight: 500;
+    width: 100px;
+    border-radius: 40px;
+    border: 1px solid #5dc4b8;
+    color: #212158;
+    transition: all 0.2s;
+  }
+
+  .about-sixth-section-donate button:hover {
+    text-decoration: none;
+    background-color: #5dc4b8;
+    color: white;
+  }
+
+  .about-sixth-lower-container {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .about-sixth-lower-column-container {
+    display: grid;
+    grid-auto-rows: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .about-sixth-lower-column-container div {
+    box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .about-sixth-lower-column-container h2 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .about-sixth-lower-column-container hr {
+    width: 85%;
+    opacity: 0.3;
+  }
+
+  .about-sixth-lower-column-container a {
+    color: #212158;
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .about-sixth-lower-column-container a:hover {
+    color: #ef5f34;
+  }
+
+  .about-sixth-education-div {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .about-sixth-food-div {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .about-sixth-medicine-div {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  .img-template {
+    width: 100%;
+  }
+
+  .img-template-progress {
+    width: 100%;
+  }
+}

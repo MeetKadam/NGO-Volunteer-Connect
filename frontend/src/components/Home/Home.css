@@ -1,0 +1,4 @@
+.home-container {
+    display: grid;
+    grid-auto-rows: repeat(10, 1fr);
+}

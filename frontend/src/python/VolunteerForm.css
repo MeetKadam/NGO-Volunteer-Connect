@@ -1,0 +1,123 @@
+.volunteer-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #232F4B;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #232F4B;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .city-suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .city-suggestions li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .city-suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(270deg, rgba(239, 95, 52, .75), #E34212);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(270deg, #E34212, rgba(239, 95, 52, .75));
+  }
+  
+  .recommendations {
+    margin-top: 30px;
+  }
+  
+  .recommendations h3 {
+    color: #232F4B;
+    margin-bottom: 15px;
+  }
+  
+  .recommendation-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .ngo-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .ngo-card-header {
+    background: linear-gradient(270deg, rgba(239, 95, 52, .75), #E34212);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .ngo-card-header h4 {
+    margin: 0;
+  }
+  
+  .ngo-card-body {
+    padding: 15px;
+  }
+  
+  .ngo-card-body p {
+    margin: 5px 0;
+    color: #232F4B;
+  }
+  
+  @media (max-width: 600px) {
+    .recommendation-cards {
+      grid-template-columns: 1fr;
+    }
+  }

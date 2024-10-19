@@ -1,0 +1,231 @@
+/* Navbar.css */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-container {
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.img-container img {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 0.5rem;
+}
+
+.img-container a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #232F4B;
+}
+
+/* Links styling */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a,
+.nav-links .dropbtn {
+    color: #232F4B;
+    padding: 0 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none; /* Remove text decoration */
+}
+
+.nav-links a:hover,
+.nav-links .dropbtn:hover {
+    color: #FD7E14;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none; /* Remove border */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: #232F4B;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none; /* Remove text decoration */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #FD7E14;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+#donate-btn {
+    background: linear-gradient(270deg, rgba(239, 95, 52, .75), #E34212);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: none; /* Remove border */
+}
+
+#donate-btn:hover {
+    background: linear-gradient(270deg, #E34212, rgba(239, 95, 52, .75));
+}
+
+#donate-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+#search-nav {
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #C9F0EB;
+    color: #232F4B;
+    margin-left: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; /* Remove border */
+}
+
+#search-nav:hover {
+    background-color: #A7E8E2;
+}
+
+.right-buttons .lucide-sidebar {
+    margin-left: 15px;
+    cursor: pointer;
+    color: #232F4B;
+}
+
+.right-buttons .lucide-sidebar:hover {
+    color: #FD7E14;
+}
+
+.ham-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    #donate-btn,
+    #search-nav {
+        display: none;
+    }
+
+    .right-buttons {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo-container a {
+        font-size: 1.2rem;
+    }
+
+    .logo-container img {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .navbar-container {
+        height: 60px;
+    }
+}
+
+/* Styles for the mobile menu (assuming you're using a Sheet component) */
+.sheet-content {
+    padding: 1rem;
+}
+
+.sheet-content .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sheet-content .nav-links a,
+.sheet-content .nav-links .dropbtn {
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+.sheet-content .dropdown-content {
+    position: static;
+    display: none;
+    box-shadow: none;
+    padding-left: 1rem;
+}
+
+.sheet-content .dropdown.open .dropdown-content {
+    display: block;
+}
+
+.sheet-content #donate-btn {
+    margin: 15px 0 0 0;
+    width: 100%;
+    text-align: center;
+}

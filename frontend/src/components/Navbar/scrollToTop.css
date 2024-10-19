@@ -1,0 +1,31 @@
+#scrollToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    list-style: none;
+    z-index: 99;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-size: 200%, 1px;
+    background-position: 0;
+    border: 2px solid #EF5F34;
+    background-color: rgba(239, 95, 52, .7);
+    align-self: center;
+    justify-self: center;
+}
+
+#scrollToTop:hover {
+    background-color: #EF5F34;
+    color: #fff;
+    cursor: pointer;
+}
+
+.scroll svg {
+    margin-top: 7.5px;
+    font-size: 25px;
+}

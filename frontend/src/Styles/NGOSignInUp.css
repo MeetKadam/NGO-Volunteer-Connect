@@ -1,0 +1,107 @@
+/* Login Page Styles */
+.login-page {
+  width: 100%; /* Make sure the page takes up full width, not full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Light background */
+  
+  padding-bottom: 100px; /* Adjust padding to avoid overlap with footer */
+  box-sizing: border-box;
+}
+
+.section-Login {
+  width: 90%; /* Keeps the section within a nice margin */
+  max-width: 1200px;
+  background: white; /* Linear gradient */
+  border-radius: 10px;
+  padding: 20px;
+  
+  display: flex; /* Flexbox layout for the form and image */
+  justify-content: space-between; /* Distribute space evenly between form and image */
+  align-items: center;
+}
+
+.grid-two-cols {
+  display: flex;
+  justify-content: space-between; /* Ensure form and image take 40% each */
+  align-items: center;
+}
+
+.login-img {
+  width: 40%; /* Set the image container to 40% width */
+  text-align: center;
+}
+
+.login-img img {
+  width: 100%; /* Image takes up full width of its container */
+  height: auto;
+  border-radius: 10px;
+}
+
+.login-form {
+  width: 40%; /* Form takes up 40% width */
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading {
+  font-size: 28px;
+  color: #212158;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form form div {
+  margin-bottom: 20px;
+}
+
+.login-form form label {
+  font-size: 18px;
+  color: #676767;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(270deg, rgba(93, 196, 184, 0.75), #41B2A5);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(270deg, #41B2A5, rgba(93, 196, 184, 0.75));
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .section-Login {
+    flex-direction: column; /* Stack image and form on smaller screens */
+    padding: 10px;
+  }
+
+  .login-form {
+    width: 100%; /* Full width for small screens */
+    margin-top: 20px;
+  }
+
+  .login-img {
+    width: 100%; /* Full width for small screens */
+  }
+}

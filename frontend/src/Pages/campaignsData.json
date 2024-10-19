@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Save the Children Education",
+    "ngo": "Save the Children",
+    "description": "A campaign to provide education to underprivileged children.",
+    "impact": "Reached 5000+ children",
+    "progress": 70,
+    "goals": "Provide educational materials and infrastructure to 100 schools.",
+    "timeline": "2024-2026",
+    "testimonials": "This initiative has brought hope to many children in rural areas."
+  },
+  {
+    "id": 2,
+    "name": "Clean Water for All",
+    "ngo": "Water Aid",
+    "description": "Providing clean water to rural areas.",
+    "impact": "Over 3000 villages now have access to clean drinking water.",
+    "progress": 50,
+    "goals": "Install 500 water pumps by the end of 2025.",
+    "timeline": "2023-2025",
+    "testimonials": "Clean water has changed the lives of people in my village."
+  },
+  {
+    "id": 3,
+    "name": "Tree Plantation Drive",
+    "ngo": "Green Earth",
+    "description": "Planting trees to combat climate change.",
+    "impact": "100,000 trees planted across several states.",
+    "progress": 40,
+    "goals": "Plant 500,000 trees by 2025.",
+    "timeline": "2022-2025",
+    "testimonials": "The tree plantation drive has made our community greener and healthier."
+  },
+  {
+    "id": 4,
+    "name": "Healthcare for All",
+    "ngo": "Health First",
+    "description": "Providing free healthcare services to rural areas.",
+    "impact": "Free healthcare services to 10,000+ individuals.",
+    "progress": 65,
+    "goals": "Establish 10 new clinics by 2024.",
+    "timeline": "2023-2024",
+    "testimonials": "Access to healthcare has saved many lives."
+  },
+  {
+    "id": 5,
+    "name": "Education for Girls",
+    "ngo": "Girls Empowerment",
+    "description": "Empowering girls through education.",
+    "impact": "Over 2000 girls enrolled in schools.",
+    "progress": 75,
+    "goals": "Enroll 5000 girls by 2025.",
+    "timeline": "2023-2025",
+    "testimonials": "Education has transformed my life."
+  },
+  {
+    "id": 6,
+    "name": "Support for the Elderly",
+    "ngo": "Care for Elders",
+    "description": "Providing support and companionship to the elderly.",
+    "impact": "Assisted 300+ elderly individuals.",
+    "progress": 55,
+    "goals": "Reach 1000 elderly individuals by the end of 2024.",
+    "timeline": "2023-2024",
+    "testimonials": "The support provided has made a significant difference in my life."
+  },
+  {
+    "id": 7,
+    "name": "Disaster Relief Fund",
+    "ngo": "Relief Now",
+    "description": "Providing immediate relief to disaster-affected areas.",
+    "impact": "Distributed relief materials to 5000 families.",
+    "progress": 80,
+    "goals": "Establish a reserve fund for future disasters.",
+    "timeline": "2023-2024",
+    "testimonials": "The relief provided was timely and life-saving."
+  },
+  {
+    "id": 8,
+    "name": "Animal Welfare Campaign",
+    "ngo": "Animal Friends",
+    "description": "Caring for stray and injured animals.",
+    "impact": "Rescued and rehabilitated over 2000 animals.",
+    "progress": 60,
+    "goals": "Create a shelter for abandoned animals by 2024.",
+    "timeline": "2023-2024",
+    "testimonials": "The shelter has given many animals a second chance at life."
+  },
+  {
+    "id": 9,
+    "name": "Mental Health Awareness",
+    "ngo": "Mind Matters",
+    "description": "Raising awareness about mental health issues.",
+    "impact": "Conducted workshops for 3000+ individuals.",
+    "progress": 45,
+    "goals": "Reach 10,000 people through awareness campaigns.",
+    "timeline": "2023-2025",
+    "testimonials": "Mental health awareness has helped many people seek help."
+  },
+  {
+    "id": 10,
+    "name": "Food for All",
+    "ngo": "Food Bank",
+    "description": "Providing food to underprivileged families.",
+    "impact": "Distributed 1 million meals to those in need.",
+    "progress": 90,
+    "goals": "Eliminate hunger in our community by 2025.",
+    "timeline": "2022-2025",
+    "testimonials": "No one should go to bed hungry; thank you for your support."
+  },
+  {
+    "id": 11,
+    "name": "Youth Empowerment Program",
+    "ngo": "Youth Future",
+    "description": "Empowering youth through skill development and education.",
+    "impact": "Trained over 5000 youth in various skills.",
+    "progress": 50,
+    "goals": "Provide skill training to 10,000 youth by 2025.",
+    "timeline": "2023-2025",
+    "testimonials": "This program has changed my life and my future."
+  },
+  {
+    "id": 12,
+    "name": "Urban Homeless Support",
+    "ngo": "Shelter Hope",
+    "description": "Providing shelter and resources for the homeless in urban areas.",
+    "impact": "Supported 3000+ homeless individuals.",
+    "progress": 65,
+    "goals": "Create 5 new shelters in major cities.",
+    "timeline": "2024-2025",
+    "testimonials": "Having a roof over my head has brought me peace."
+  },
+  {
+    "id": 13,
+    "name": "Disability Rights Advocacy",
+    "ngo": "Equal Rights",
+    "description": "Advocating for the rights and inclusion of individuals with disabilities.",
+    "impact": "Advocated for policy changes affecting 1,000 individuals.",
+    "progress": 55,
+    "goals": "Raise awareness and support for 10,000 individuals with disabilities.",
+    "timeline": "2023-2025",
+    "testimonials": "This advocacy has given a voice to many."
+  },
+  {
+    "id": 14,
+    "name": "Rural Electrification Project",
+    "ngo": "Light Up",
+    "description": "Providing electricity to rural areas.",
+    "impact": "Electrified 100 villages, benefiting thousands.",
+    "progress": 80,
+    "goals": "Electrify 500 more villages by 2025.",
+    "timeline": "2022-2025",
+    "testimonials": "Electricity has transformed our way of life."
+  },
+  {
+    "id": 15,
+    "name": "Healthy Food for Kids",
+    "ngo": "NutriKids",
+    "description": "Providing nutritious meals to children in schools.",
+    "impact": "Provided over 200,000 healthy meals to children.",
+    "progress": 75,
+    "goals": "Ensure all children have access to healthy meals.",
+    "timeline": "2023-2025",
+    "testimonials": "Healthy meals have improved children's health and learning."
+  },
+  {
+    "id": 16,
+    "name": "Women's Safety Initiative",
+    "ngo": "Safe Women",
+    "description": "Promoting safety and awareness for women in urban areas.",
+    "impact": "Trained over 2000 women in self-defense.",
+    "progress": 60,
+    "goals": "Increase awareness programs for 10,000 women.",
+    "timeline": "2023-2025",
+    "testimonials": "I feel empowered and safe thanks to this initiative."
+  },
+  {
+    "id": 17,
+    "name": "Refugee Support Program",
+    "ngo": "Hope for Refugees",
+    "description": "Providing support and resources for refugees.",
+    "impact": "Assisted over 500 refugee families.",
+    "progress": 50,
+    "goals": "Support 1000 families by 2025.",
+    "timeline": "2023-2025",
+    "testimonials": "This support has given us hope for a new beginning."
+  },
+  {
+    "id": 18,
+    "name": "Art for Change",
+    "ngo": "Creative Minds",
+    "description": "Using art to promote social change and awareness.",
+    "impact": "Engaged 2000 individuals in art workshops.",
+    "progress": 45,
+    "goals": "Reach 5000 individuals through art programs.",
+    "timeline": "2023-2025",
+    "testimonials": "Art has opened my eyes to social issues."
+  },
+  {
+    "id": 19,
+    "name": "Disaster Preparedness Training",
+    "ngo": "Ready Now",
+    "description": "Training communities for disaster preparedness.",
+    "impact": "Trained over 3000 individuals in disaster response.",
+    "progress": 65,
+    "goals": "Train 10,000 individuals by 2025.",
+    "timeline": "2023-2025",
+    "testimonials": "Preparedness training saved lives in our community."
+  },
+  {
+    "id": 20,
+    "name": "Technology for Rural Development",
+    "ngo": "Tech for All",
+    "description": "Bringing technology to rural areas to improve livelihoods.",
+    "impact": "Provided tech resources to 1000+ rural entrepreneurs.",
+    "progress": 70,
+    "goals": "Empower 5000 rural entrepreneurs by 2025.",
+    "timeline": "2023-2025",
+    "testimonials": "Technology has transformed our farming practices."
+  }
+]

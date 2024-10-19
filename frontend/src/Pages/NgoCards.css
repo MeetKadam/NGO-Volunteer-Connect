@@ -1,0 +1,65 @@
+/* Modal overlay */
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    background: white; /* White background for modal */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    width: 400px; /* Fixed width for modal */
+    max-width: 90%; /* Responsive max width */
+    margin: auto; /* Centered */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Modal header */
+  .modal-header {
+    font-size: 24px; /* Larger font for the header */
+    margin-bottom: 15px; /* Spacing below the header */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    margin: 10px 0; /* Spacing around inputs */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Button styles */
+  .submit-button {
+    background: #76c7c0; /* Button color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Spacing above button */
+  }
+  
+  .submit-button:hover {
+    background: #68b3ab; /* Darken button on hover */
+  }
+  
+  /* Close button */
+  .close-button {
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    position: absolute; /* Position at the top right */
+    top: 15px; /* Spacing from the top */
+    right: 15px; /* Spacing from the right */
+    color: #333; /* Dark text color */
+  }
+  
+  .close-button:hover {
+    color: #e74c3c; /* Change color on hover */
+  }
+  

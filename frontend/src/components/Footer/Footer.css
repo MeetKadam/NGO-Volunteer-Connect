@@ -1,0 +1,623 @@
+@media screen and (min-device-width: 1440px) {
+    .button-container {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .button-container button {
+        background-color: hsla(0, 0%, 100%, .1);
+        color: #fff;
+        border: none;
+        padding: 8px 8px;
+        border-radius: 40px;
+        margin-left: 10px;
+    }
+
+    .button-container button:hover {
+        background-color: #fff;
+        color: #29395B;
+        border: none;
+    }
+
+    .upper-container {
+        background-color: #29395B;
+        color: #fff;
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 90px 70px;
+        align-self: center;
+    }
+
+    .lower-container {
+        text-align: center;
+        display: grid;
+        color: #fff;
+        background-color: #192847;
+    }
+
+    .logo-container {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .logo-container p {
+        margin: 20px 20px;
+        margin-top: 0;
+        letter-spacing: 1px;
+    }
+
+    .services-container {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        text-align: center;
+    }
+
+    .services-container ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .services-container li {
+        list-style-type: none;
+        margin: 10px 0;
+    }
+
+    .services-container a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .services-container a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    .contact-container {
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .contact-container p {
+        margin-right: 80px;
+    }
+
+    .projects-container {
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+
+    .project-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .project-grid-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #first-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #second-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #third-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    #fourth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #fifth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #sixth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .logo-container p,
+    img {
+        text-align: left;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width:1439px) {
+    .button-container {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .button-container button {
+        background-color: hsla(0, 0%, 100%, .1);
+        color: #fff;
+        border: none;
+        padding: 8px 8px;
+        border-radius: 40px;
+        margin-left: 20px;
+    }
+
+    .button-container button:hover {
+        background-color: #fff;
+        color: #29395B;
+        border: none;
+    }
+
+    .upper-container {
+        background-color: #29395B;
+        color: #fff;
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 50px 5px;
+        align-self: center;
+    }
+
+    .lower-container {
+        text-align: center;
+        display: grid;
+        color: #fff;
+        background-color: #192847;
+    }
+
+    .logo-container {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .logo-container p {
+        margin: 20px 30px;
+        margin-top: 0;
+        letter-spacing: 1px;
+    }
+
+    .services-container {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .services-container ul {
+        padding: 0;
+        margin-left: 14px;
+    }
+
+    .services-container li {
+        list-style-type: none;
+        margin: 10px 0;
+    }
+
+    .services-container a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .services-container a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    .contact-container {
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .projects-container {
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+
+    .project-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .project-grid-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #first-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #second-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #third-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    #fourth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #fifth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #sixth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .logo-container p,
+    img {
+        text-align: left;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width:1023px) {
+    .button-container {
+        text-align: left;
+    }
+
+    .button-container button {
+        background-color: hsla(0, 0%, 100%, .1);
+        color: #fff;
+        border: none;
+        border-radius: 40px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .logo-footer {
+        width: 250px;
+    }
+
+    .upper-container {
+        background-color: #29395B;
+        color: #fff;
+        font-size: 18px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        align-self: center;
+        padding: 40px;
+    }
+
+    .lower-container {
+        text-align: center;
+        display: grid;
+        color: #fff;
+        background-color: #192847;
+    }
+
+    .lower-container p {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo-container {
+        margin-top: 30px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .logo-container p {
+        margin-left: 10px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 1.9em;
+    }
+
+    .services-container {
+        margin-left: 10px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        text-align: left;
+    }
+
+    .services-container h2 {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    .services-container ul {
+        text-align: left;
+        padding: 0px;
+    }
+
+    .services-container li {
+        padding-top: 15px;
+        list-style-type: none;
+    }
+
+    .services-container a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .contact-container {
+        margin-left: 10px;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-top: 20px;
+    }
+
+    .contact-container p {
+        text-align: left;
+    }
+
+    .projects-container {
+        margin-top: 20px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    .projects-container h2 {
+        margin-left: 10px;
+    }
+
+    .project-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project-grid-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #first-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #second-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #third-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    #fourth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #fifth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #sixth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .logo-container p,
+    img {
+        text-align: left;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width:767px) {
+    .button-container {
+        text-align: left;
+    }
+
+    .button-container button {
+        background-color: hsla(0, 0%, 100%, .1);
+        color: #fff;
+        border: none;
+        border-radius: 40px;
+        margin-left: 10px;
+        padding: 9px;
+    }
+
+    .logo-footer {
+        width: 250px;
+    }
+
+    .upper-container {
+        background-color: #29395B;
+        color: #fff;
+        font-size: 18px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        align-self: center;
+    }
+
+    .lower-container {
+        text-align: center;
+        display: grid;
+        color: #fff;
+        background-color: #192847;
+    }
+
+    .lower-container p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo-container {
+        margin-top: 30px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .logo-container p {
+        margin-left: 10px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 1.9em;
+    }
+
+    .services-container {
+        margin-left: 10px;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        text-align: left;
+    }
+
+    .services-container h2 {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    .services-container ul {
+        text-align: left;
+        padding: 0px;
+    }
+
+    .services-container li {
+        padding-top: 15px;
+        list-style-type: none;
+    }
+
+    .services-container a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .contact-container {
+        margin-left: 10px;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        margin-top: 20px;
+    }
+
+    .contact-container p {
+        text-align: left;
+    }
+
+    .projects-container {
+        margin-top: 20px;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+    .projects-container h2 {
+        margin-left: 10px;
+    }
+
+    .project-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project-grid-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #first-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #second-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #third-project {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    #fourth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    #fifth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    #sixth-project {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .logo-container p,
+    img {
+        text-align: left;
+    }
+}

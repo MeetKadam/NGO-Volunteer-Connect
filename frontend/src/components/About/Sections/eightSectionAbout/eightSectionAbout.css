@@ -1,0 +1,10 @@
+.about-eight-section {
+  grid-row-start: 8;
+  grid-row-end: 8;
+  margin-bottom: 80px;
+}
+.about-eight-container {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}

@@ -1,0 +1,10 @@
+.item-firstSection img {
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+  border-radius: 50px;
+}
+
+.first-carousel-container {
+  width: 288px;
+}
